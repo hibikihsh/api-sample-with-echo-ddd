@@ -20,6 +20,5 @@
 /pkg            # 外部パッケージ
 ```
 
-## References
-
-- https://github.com/gs1068/golang-ddd-sample
+<!-- ## References -->
+<!-- - https://github.com/gs1068/golang-ddd-sample -->
