@@ -1,7 +1,7 @@
 package router
 
 import (
-	"api-sample-with-echo-ddd/src/interface/handler"
+	"api-sample-with-echo-ddd/interface/handler"
 
 	"github.com/labstack/echo"
 )

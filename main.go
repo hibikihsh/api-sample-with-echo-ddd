@@ -1,11 +1,11 @@
 package main
 
 import (
-	"api-sample-with-echo-ddd/src/database"
-	"api-sample-with-echo-ddd/src/infra"
-	router "api-sample-with-echo-ddd/src/interface"
-	"api-sample-with-echo-ddd/src/interface/handler"
-	"api-sample-with-echo-ddd/src/usecase"
+	database "api-sample-with-echo-ddd/config"
+	"api-sample-with-echo-ddd/infra"
+	router "api-sample-with-echo-ddd/interface"
+	"api-sample-with-echo-ddd/interface/handler"
+	"api-sample-with-echo-ddd/usecase"
 
 	"github.com/joho/godotenv"
 	"github.com/labstack/echo"

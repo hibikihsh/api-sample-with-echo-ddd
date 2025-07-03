@@ -1,6 +1,6 @@
 package repository
 
-import "api-sample-with-echo-ddd/src/domain/model"
+import "api-sample-with-echo-ddd/domain/model"
 
 type UserRepository interface {
 	Create(user *model.User) (*model.User, error)

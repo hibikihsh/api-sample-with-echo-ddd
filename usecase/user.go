@@ -1,8 +1,8 @@
 package usecase
 
 import (
-	"api-sample-with-echo-ddd/src/domain/model"
-	"api-sample-with-echo-ddd/src/domain/repository"
+	"api-sample-with-echo-ddd/domain/model"
+	"api-sample-with-echo-ddd/domain/repository"
 )
 
 type UserUseCase interface {

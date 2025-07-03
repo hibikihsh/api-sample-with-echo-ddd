@@ -1,7 +1,7 @@
 package handler
 
 import (
-	"api-sample-with-echo-ddd/src/usecase"
+	"api-sample-with-echo-ddd/usecase"
 	"net/http"
 	"time"
 
