@@ -34,7 +34,7 @@ func (r *UserRepository) FindByID(id string) (*model.User, error) {
 func (r *UserRepository) FindAll() ([]*model.User, error) {
 	users := []*model.User{}
 
-	if err := r.db.Find(users).Error; err != nil {
+	if err := r.db.Find(&users).Error; err != nil {
 		return nil, err
 	}
 	return users, nil

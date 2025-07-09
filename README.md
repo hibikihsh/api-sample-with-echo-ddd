@@ -12,12 +12,12 @@
 
 ```
 /cmd            # エントリーポイント
-/src       # アプリケーション内部コード
-  /domain       # ドメイン層
-  /usecase      # ユースケース層
-  /interface    # インターフェース層
-  /infrastructure # インフラ層
-/pkg            # 外部パッケージ
+/domain         # ドメイン層
+/usecase        # ユースケース層
+/interface      # インターフェース層
+  handler        # ハンドラー
+  router         # ルーティング
+/infra          # インフラ層
 ```
 
 <!-- ## References -->
